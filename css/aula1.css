@@ -1,0 +1,38 @@
+/*
+
+Anotação
+Exemplo: "O Parágrafo deve ser da cor vermelha"
+
+Seletor (Quem?)  Parágrafo  p
+Atributo (O que?)  Cor  color
+Valor (Qual?)  Vermelha  red
+
+*/
+
+p{
+    color: red;
+    font-size: 20px;
+    font-family: cursive;
+    background-color:black;
+    text-align: center;
+    border: 3px ridge rgb(83, 83, 83);
+    border-left-color: red;
+    border-right-color: red;
+    
+    /* solid, dotted, dashed, double, inset, outset, ridge, groove */
+}
+
+h1{
+    color: blue;
+}
+
+img{
+    height: 300px;
+    width: 457px;
+    border: 3px dashed black;
+    border-radius: 10px;
+}
+
+body{
+    background-color:rgb(34, 34, 34);
+}
