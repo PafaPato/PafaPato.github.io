@@ -1,0 +1,111 @@
+body{
+    background-image: linear-gradient(#505050 2px, transparent 2px), linear-gradient(to right, #505050 2px, transparent 2px);
+    background-size: 32px 32px;
+    background-color: #474747;
+    text-align: center;
+    margin: 0;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    max-width: 600px;
+}
+
+.banner{
+    background-color: rgb(0, 0, 0);
+    color: rgb(122, 122, 122);
+    padding: 10px;
+    text-align: center;
+    left: 0;
+    top: 0;
+    font-family: fantasy;
+}
+
+p{
+    color: rgb(20, 20, 20);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.705);
+    margin: 3px;
+    border-radius: 2px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(122,122,122);
+    text-shadow: 2px 2px 2px black;
+    font-family: fantasy;
+    
+}
+
+.area1{
+    background: url(https://tse1.mm.bing.net/th/id/OIP.qhKg_e6pLLnMmx440G7hjgHaNK?rs=1&pid=ImgDetMain&o=7&rm=3) no-repeat center center;
+    background-size: cover;
+    
+    padding-bottom: 13px;
+    background-size: cover;
+    
+}
+
+
+.area3 h2{
+    color: rgb(122, 122, 122);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(41, 41, 41);
+    margin: 20px;
+    padding: 20px;
+    border: solid darkorange;
+    border-radius: 3px;
+    box-shadow: rgb(0, 0, 0) 3px 3px 6px 0px inset, rgba(0, 0, 0, 0.5) -3px -3px 6px 1px inset;
+    text-shadow: 1px 1px rgb(5, 5, 5);
+}
+
+
+.area3{
+    background: url(https://tse3.mm.bing.net/th/id/OIP.cZUuVe0zMPdLXJ9PfaYIvgHaNK?rs=1&pid=ImgDetMain&o=7&rm=3) no-repeat center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-size: cover;
+}
+
+.area3 h2{
+   transition: 0.5s;
+}
+
+.area3 h2:hover{
+    color: darkorange;
+    scale: 1.05;
+}
+
+.area4{
+    margin-bottom: 25px;
+}
+
+.area4 a{
+    color: rgb(122,122,122);
+    text-shadow: 2px 2px 2px black;
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+.area4 a:hover{
+    color: darkorange;
+    
+}
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagens img{
+    width: 50%;
+    scale: 0.9;
+    border-radius: 3px;
+}
+
+.area4 img{
+    width: 30px;
+}
